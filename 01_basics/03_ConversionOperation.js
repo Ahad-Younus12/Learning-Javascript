@@ -69,9 +69,14 @@ let num1, num2, num3         // ....... *same as line 65*
 
 num1 = num2 = num3 = 2 + 2    // ....... *same as line 65*
 
-let gameCounter = 100
-++gameCounter;                    // Read increment documentation(++) in MDN
-console.log(gameCounter);
+let x = 100
+const y = x++;              // Read increment documentation(++) in MDN link:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+console.log(`x:${x}, y:${y}`);
+
+let a = 100
+const b = ++a;
+console.log(`a:${a}, b:${b}`);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
